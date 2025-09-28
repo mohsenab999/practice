@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rock-button, .paper-button,
+.scissors-button {
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 60px;
+    margin-left: 13px;
+    cursor: pointer;
+
+}
+
+.selector-img {
+    width: 50px;
+    height: 50px;
+}
+
+.page-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+.general-situation {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.chooses {
+    margin-bottom: 50px;
+}
+.scores {
+    font-size: 18px;
+}
+.reset {
+    background-color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}

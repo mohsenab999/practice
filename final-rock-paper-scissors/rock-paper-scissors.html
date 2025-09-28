@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>final-rock,paper,scissors</title>
+        <link rel="stylesheet" href="styles/rps.css">
+        
+
+    </header>
+
+    <body>
+        <p class="page-header">Rock Paper Scissors</p>
+
+        <button class="rock-button , js-rock-button" onclick="
+            playgameresult('rock') ;
+        ">
+            <img class="selector-img" src="styles/images/rock-emoji.png">
+        </button>
+
+        <button class="paper-button , js-paper-button" onclick="
+            playgameresult('paper') ;
+        ">
+            <img class="selector-img" src="styles/images/paper-emoji.png">
+        </button>
+
+        <button class="scissors-button , js-scissors-button" onclick="
+            playgameresult('scissors') ;
+        ">
+            <img class="selector-img" src="styles/images/scissors-emoji.png">
+        </button>
+
+        <p class="general-situation , js-general-situation"></p>
+
+        <p class="chooses , js-chooses"></p>
+
+        <p class="scores , js-scores"></p>
+
+        <button class="reset , js-reset" onclick="
+            reset();
+        ">Reset game</button>
+
+
+        <script src="scripts/rock-paper-scissors.js"></script>
+    </body>
+</html>
